@@ -4,130 +4,162 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/src/assets/styles/index.css">
+  <link rel="stylesheet" href="assets/styles/index.css">
   <title>Лэндинг</title>
 </head>
 <body>
-  <header>
-    <div class="logo">Логотип</div>
-    <nav>
-      <ul>
-        <li><a href="#1">Тема 1</a></li>
-        <li><a href="#2">Тема 2</a></li>
-        <li><a href="#3">Тема 3</a></li>
-        <li><a href="#4">Тема 4</a></li>
+  <div class="wrapper">
+    <header class="header-nav">
+      <button class="button-nav">
+        <img src="assets/images/button-nav.svg" alt="Меню навигации">
+      </button>
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="Логотип"
+             width="103px" height="28px">
+      </div>
+      <!-- <nav>
+        <ul class="nav-ul">
+          <li class="nav-li"><a href="#1">Тема 1</a></li>
+          <li class="nav-li"><a href="#2">Тема 2</a></li>
+          <li class="nav-li"><a href="#3">Тема 3</a></li>
+          <li class="nav-li"><a href="#4">Тема 4</a></li>
+        </ul>
+        <a href="#" class="sign-up">Войти или зарегистрироваться</a>
+      </nav> -->
+    </header>
+    <article>
+      <h1>Заголовок Заголовок</h1>
+      <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
+      <a href="#" class="sign-up get">Начать</a>
+      <div class="img-back">
+        <picture>
+          <source srcset="assets/images/img-back.webp" type="image/webp">
+          <img src="assets/images/img-back.png" alt="Картинка" width="400px" height="400px">
+          <!-- <img src="assets/images/img-back.png" alt="Картинка" width="400px" height="400px"> -->
+          <!-- autor="Mathieu L.B, https://www.behance.net/MathieuLB/projects" -->
+        </picture>
+      </div>
+    </article>
+    <section>
+      <h2 id="1">Тема 1</h2>
+      <ul class="sfirst-ul">
+        <li class="sfirst-li">
+          <img src="assets/images/icon-s1-1.svg" alt="Иконка 1"
+               width="80px" height="80px">
+          <p>Текст</p>
+        </li>
+        <li class="sfirst-li">
+          <img src="assets/images/icon-s1-2.svg" alt="Иконка 2"
+               width="80px" height="80px">
+          <p>Текст</p>
+        </li>
+        <li class="sfirst-li">
+          <img src="assets/images/icon-s1-3.svg" alt="Иконка 3"
+               width="80px" height="80px">
+          <p>Текст</p>
+        </li>
+        <li class="sfirst-li">
+          <img src="assets/images/icon-s1-4.svg" alt="Иконка 4"
+               width="80px" height="80px">
+          <p>Текст</p>
+        </li>
       </ul>
-      <a href="#" class="sign-up">Войти или зарегистрироваться</a>
-    </nav>
-  </header>
-  <article>
-    <h1>Заголовок Заголовок</h1>
-    <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
-    <a href="#" class="sign-up">Начать</a>
-  </article>
-  <section>
-    <h2 id="1">Тема 1</h2>
-    <ul>
-      <li><img src="#" alt="#" width="106px" height="106px">Текст</li>
-      <li><img src="#" alt="#" width="106px" height="106px">Текст</li>
-      <li><img src="#" alt="#" width="106px" height="106px">Текст</li>
-      <li><img src="#" alt="#" width="106px" height="106px">Текст</li>
-    </ul>
-  </section>
-  <section>
-    <h2 id="2">Тема 2</h2>
-    <ul>
-      <li><img src="#" alt="#" width="177px" height="331px">Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
-      <li><img src="#" alt="#" width="177px" height="331px"> Текст Текст Текст Текст Текст Текст Текст Текст</li>
-      <li><img src="#" alt="#" width="177px" height="331px"> Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
-    </ul>
-  </section>
-  <section>
-    <h2 id="3">Тема 3</h2>
-    <ul>
-      <li>
-        <div>1</div>
-        <p>Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-      <li>
-        <div>2</div>
-        <p>Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-      <li>
-        <div>3</div>
-        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-      <li>
-        <div>4</div>
-        <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2 id="4">Тема 4</h2>
-    <div>Текст Текст</div>
-    <ul>
-      <li>
-        <p>Текст Текст Текст Текст Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-      <li>
-        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-      <li>
-        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-        <img src="#" alt="#">
-      </li>
-    </ul>
-  </section>
-  <footer>
-    <div>
-      <p>+7 (111) 111-11-11</p>
-      <p>Для звонков из любой точки мира</p>
-    </div>
-    <div>
-      <p>111</p>
-      <p>Для бесплатных звонков с мобильных на территории РФ</p>
-    </div>
-    <ul>
-      <li>
-        <a href="https://www.facebook.com">
-        <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-      </li>
-      <li>
-        <a href="https://vk.com">
-        <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-      </li>
-      <li>
-        <a href="https://twitter.com">
-        <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com">
-        <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-      </li>
-      <li>
-        <a href="https://ok.ru/">
-        <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-      </li>
-    </ul>
-    <ul>
-      <li><a href="#">Тариф</a></li>
-      <li><a href="#">Конфиденциальность</a></li>
-      <li><a href="#">Условия</a></li>
-    </ul>
-    <address>
-      <p>Россия, Город, 111111, ул.Улица, д. 11</p>
-      <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-      <p>Текст Текст Текст Текст Текст</p>
-    </address>
-    <p>2021—2021 УУУ  ТекстТекст</p>
-    <p>Текст Текст Текст</p>
-  </footer>
+    </section>
+    <section>
+      <h2 id="2">Тема 2</h2>
+      <ul>
+        <li><img src="#" alt="#" width="177px" height="331px">Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
+        <li><img src="#" alt="#" width="177px" height="331px"> Текст Текст Текст Текст Текст Текст Текст Текст</li>
+        <li><img src="#" alt="#" width="177px" height="331px"> Текст Текст Текст Текст Текст Текст Текст Текст Текст</li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="3">Тема 3</h2>
+      <ul>
+        <li>
+          <div>1</div>
+          <p>Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+        <li>
+          <div>2</div>
+          <p>Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+        <li>
+          <div>3</div>
+          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+        <li>
+          <div>4</div>
+          <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2 id="4">Тема 4</h2>
+      <div>Текст Текст</div>
+      <ul>
+        <li>
+          <p>Текст Текст Текст Текст Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+        <li>
+          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+        <li>
+          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+          <img src="#" alt="#">
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <div>
+        <p>+7 (111) 111-11-11</p>
+        <p>Для звонков из любой точки мира</p>
+      </div>
+      <div>
+        <p>111</p>
+        <p>Для бесплатных звонков с мобильных на территории РФ</p>
+      </div>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com">
+          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
+        </li>
+        <li>
+          <a href="https://vk.com">
+          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com">
+          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com">
+          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
+        </li>
+        <li>
+          <a href="https://ok.ru/">
+          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="#">Тариф</a></li>
+        <li><a href="#">Конфиденциальность</a></li>
+        <li><a href="#">Условия</a></li>
+      </ul>
+      <address>
+        <p>Россия, Город, 111111, ул.Улица, д. 11</p>
+        <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+        <p>Текст Текст Текст Текст Текст</p>
+      </address>
+      <p>2021—2021 УУУ  ТекстТекст</p>
+      <p>Текст Текст Текст</p>
+    </footer>
+  </div>
 </body>
 </html>
