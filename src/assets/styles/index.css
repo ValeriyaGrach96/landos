@@ -238,7 +238,6 @@ h2 {
 .ssecond-ul {
   display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -254,7 +253,7 @@ h2 {
 
 .ssecond-li {
   position: relative;
-  height: 457px;
+  height: 460px;
 }
 
 .ssecond-li + .ssecond-li {
@@ -302,4 +301,60 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   color: #334047;
+}
+/* section-second */
+/* _____________________________________________________________________________________ */
+
+/* section-third */
+/* _____________________________________________________________________________________ */
+.sthird-li {
+  position: relative;
+  min-width: 250px;
+  height: 430px;
+  background-color: #b236ff6c;
+  border-radius: 40px;
+  scroll-snap-align: center;
+}
+
+.sthird-li + .sthird-li {
+  margin-left: 10px;
+}
+
+.sthird-li:first-child {
+  scroll-snap-align: start;
+  scroll-margin-left: 24px;
+}
+
+.sthird-li:last-child {
+  margin-right: 24px;
+  scroll-snap-align: end;
+  scroll-margin-right: 24px;
+}
+
+.li-number {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #942dd4f3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+}
+
+.sthird-li > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #334047;
+}
+
+p.p-color {
+  margin-top: 10px;
+  color: #536975;
 }
