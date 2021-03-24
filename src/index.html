@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/styles/index.css">
+  <link rel="icon" href="/src/assets/images/favicon.png" type="image/png">
   <title>Лэндинг</title>
 </head>
 <body>
@@ -17,16 +18,21 @@
         <img src="assets/images/logo.svg" alt="Логотип"
              width="103px" height="28px">
       </div>
-      <!-- <nav>
+    </header>
+    <aside class="aside-nav hidden">
+      <button class="aside-close" aria-label="Закрыть">
+        <img src="assets/images/icon-aside-button.svg" alt="Крестик">
+      </button>
+      <nav>
         <ul class="nav-ul">
           <li class="nav-li"><a href="#1">Тема 1</a></li>
           <li class="nav-li"><a href="#2">Тема 2</a></li>
           <li class="nav-li"><a href="#3">Тема 3</a></li>
           <li class="nav-li"><a href="#4">Тема 4</a></li>
         </ul>
-        <a href="#" class="sign-up">Войти или зарегистрироваться</a>
-      </nav> -->
-    </header>
+      </nav>
+      <a href="#" class="sign-up get">Зарегистрироваться</a>
+    </aside>
     <div class="a-wrapper">
       <div class="a-back"></div>
       <article>
@@ -87,98 +93,130 @@
     </section>
     <section>
       <h2 id="3">Тема 3</h2>
-      <ul class="ssecond-ul">
-        <li class="sthird-li">
-          <div class="li-number">1</div>
-          <p>Текст Текст Текст</p>
-          <img src="assets/images/img-s3-1.png" alt="Чаша на камнях"
-               height="300px" class="img-s3-1">
-          <!-- autor="Mathieu L.B, https://www.behance.net/MathieuLB/projects" -->
-        </li>
-        <li class="sthird-li">
-          <div class="li-number">2</div>
-          <p>Текст Текст Текст</p>
-          <p class="p-color">Текст Текст Текст</p>
-          <img src="assets/images/img-s3-2.png" alt="Инопланетный шар"
-               height="250px" class="img-s3-2">
-          <!-- autor="Mathieu L.B, https://www.behance.net/MathieuLB/projects" -->
-        </li>
-        <li class="sthird-li">
-          <div class="li-number">3</div>
-          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-          <img src="assets/images/img-s3-3.png" alt="Инопланетная пирамида"
-               height="190px" class="img-s3-3">
-          <!-- autor="Mathieu L.B, https://www.behance.net/MathieuLB/projects" -->
-        </li>
-        <li class="sthird-li lost">
-          <div class="li-number">4</div>
-          <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
-          <img src="assets/images/img-s3-4.png" alt="Девушка на камнях"
-               height="250px" class="img-s3-4">
-          <!-- autor="Mathieu L.B, https://www.behance.net/MathieuLB/projects" -->
-        </li>
-      </ul>
+      <div class="wrapper-ul">
+        <ul class="sthird-ul">
+          <li class="sthird-li">
+            <div class="wrapper-li">
+            <div class="li-number">1</div>
+            <p>Текст Текст Текст</p>
+            <img src="assets/images/img-s3-1.png" alt="Чаша на камнях"
+                height="300px" class="img-s3-1">
+            </div>
+          </li>
+          <li class="sthird-li">
+            <div class="wrapper-li">
+            <div class="li-number">2</div>
+            <p>Текст Текст Текст</p>
+            <p class="p-color">Текст Текст Текст</p>
+            <img src="assets/images/img-s3-2.png" alt="Инопланетный шар"
+                height="250px" class="img-s3-2">
+            </div>
+          </li>
+          <li class="sthird-li">
+            <div class="wrapper-li">
+            <div class="li-number">3</div>
+            <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+            <img src="assets/images/img-s3-3.png" alt="Инопланетная пирамида"
+                height="190px" class="img-s3-3">
+            </div>
+          </li>
+          <li class="sthird-li">
+            <div class="wrapper-li">
+              <div class="li-number">4</div>
+              <p>Текст Текст Текст Текст Текст Текст Текст Текст</p>
+              <img src="assets/images/img-s3-4.png" alt="Девушка на камнях"
+                  height="250px" class="img-s3-4">
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section>
       <h2 id="4">Тема 4</h2>
-      <div>Текст Текст</div>
-      <ul>
-        <li>
-          <p>Текст Текст Текст Текст Текст Текст Текст</p>
-          <img src="#" alt="#">
-        </li>
-        <li>
-          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-          <img src="#" alt="#">
-        </li>
-        <li>
-          <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
-          <img src="#" alt="#">
-        </li>
-      </ul>
+      <div class="wrapper-ul">
+        <ul class="sthird-ul">
+          <li class="sthird-li">
+            <div class="wrapper-li-4">
+              <img src="assets/images/point-s4-1.svg" alt="" width="70px" height="70px"
+                   class="point-of-li">
+              <p>Текст Текст Текст Текст Текст Текст Текст</p>
+              <form class="input-number" action="#">
+                <label for="phone">Номер телефона</label>
+                <input id="phone" type="tel" placeholder="1110002233" value="letNumber">
+                <button class="sign-up get" type="submit">Начать</button>
+              </form>
+            </div>
+          </li>
+          <li class="sthird-li">
+            <div class="wrapper-li-4">
+              <img src="assets/images/point-s4-2.svg" alt="" width="70px" height="70px"
+                   class="point-of-li">
+              <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+              <img src="assets/images/img-s4-2.svg" alt="Карточный документ"
+                   width="210px" height="140px" class="img-s4-2">
+            </div>
+          </li>
+          <li class="sthird-li">
+            <div class="wrapper-li-4">
+              <img src="assets/images/point-s4-3.svg" alt="" width="70px" height="70px"
+                   class="point-of-li">
+              <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
+              <img src="assets/images/img-s4-3.svg" alt="Окно диалогов"
+                   width="250px" height="240px" class="img-s4-3">
+            </div>
+          </li>
+        </ul>
+        <div class="line">
+          <img src="/src/assets/images/line-s4.svg" alt="">
+        </div>
+      </div>
     </section>
     <footer>
-      <div>
-        <p>+7 (111) 111-11-11</p>
-        <p>Для звонков из любой точки мира</p>
+      <div class="footer-tel-wrapper">
+        <div class="tel-wrapper">
+          <a href="tel:+71111111111">+7 (111) 111-11-11</a>
+          <p>Для звонков из любой точки мира</p>
+        </div>
+        <div class="tel-wrapper">
+          <a href="tel:111">111</a>
+          <p>Для бесплатных звонков с мобильных на территории РФ</p>
+        </div>
       </div>
-      <div>
-        <p>111</p>
-        <p>Для бесплатных звонков с мобильных на территории РФ</p>
+      <div class="footer-ul-wrapper">
+        <ul class="footer-ul-socnet">
+          <li>
+            <a href="https://www.facebook.com">
+            <img src="assets/images/icon-facebook.svg" alt="Логотип фейсбук" width="35.53px" height="35.74px"></a>
+          </li>
+          <li>
+            <a href="https://vk.com">
+            <img src="assets/images/icon-vk.svg" alt="Логотип ВК" width="35.53px" height="35.74px"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com">
+            <img src="assets/images/icon-twitter.svg" alt="Логотип твиттера" width="35.53px" height="35.74px"></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com">
+            <img src="assets/images/icon-youtube.svg" alt="Логотип ютуба" width="35.53px" height="35.74px"></a>
+          </li>
+          <li>
+            <a href="https://ok.ru/">
+            <img src="assets/images/icon-ok.svg" alt="Логотип одноклассники" width="35.53px" height="35.74px"></a>
+          </li>
+        </ul>
+        <ul class="footer-ul-document">
+          <li><a href="#">Тариф</a></li>
+          <li><a href="#">Конфиденциальность</a></li>
+          <li><a href="#">Условия</a></li>
+        </ul>
       </div>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com">
-          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-        </li>
-        <li>
-          <a href="https://vk.com">
-          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-        </li>
-        <li>
-          <a href="https://twitter.com">
-          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com">
-          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-        </li>
-        <li>
-          <a href="https://ok.ru/">
-          <img src="#" alt="#" width="35.53px" height="35.74px"></a>
-        </li>
-      </ul>
-      <ul>
-        <li><a href="#">Тариф</a></li>
-        <li><a href="#">Конфиденциальность</a></li>
-        <li><a href="#">Условия</a></li>
-      </ul>
       <address>
         <p>Россия, Город, 111111, ул.Улица, д. 11</p>
         <p>Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст Текст</p>
         <p>Текст Текст Текст Текст Текст</p>
       </address>
-      <p>2021—2021 УУУ  ТекстТекст</p>
+      <p>2021—2021 УУУ ТекстТекст</p>
       <p>Текст Текст Текст</p>
     </footer>
   </div>
