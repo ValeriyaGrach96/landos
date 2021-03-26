@@ -465,6 +465,7 @@ p.p-color {
 /* section-fouth */
 /* _____________________________________________________________________________________ */
 .wrapper-li-4 {
+  position: relative;
   padding: 40px 20px;
   width: 250px;
   height: 500px;
@@ -523,7 +524,23 @@ p.p-color {
 .line {
   position: absolute;
   top: 60px;
-  left: 165px;
+
+  height: 6px;
+  width: 90%;
+
+  z-index: 2;
+}
+
+.line-one {
+  left: 60%;
+
+  background: linear-gradient(270deg, #FF8A00, #2642A6);
+}
+
+.line-two {
+  left: 55%;
+
+  background: linear-gradient(90deg, #FF8A00, #26A642);
 }
 /* _____________________________________________________________________________________ */
 
